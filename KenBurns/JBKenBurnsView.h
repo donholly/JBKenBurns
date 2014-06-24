@@ -26,6 +26,8 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
+typedef UIImage *(^JBKenBurnsImageProviderBlock)();
+
 @class JBKenBurnsView;
 @protocol KenBurnsViewDelegate <NSObject>
 
